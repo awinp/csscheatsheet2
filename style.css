@@ -1,0 +1,132 @@
+body {
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box1 {
+  background-color: darkturquoise;
+  color: white;
+  border-right: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  border-left: 5px red solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin: 20px, 0;
+}
+.box2 {
+  font-size: 25px;
+  line-height: 1em;
+  background-color: darksalmon;
+  color: white;
+  border: 5px red solid; /* easier way to create border*/
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  margin: 20px 15px;
+}
+.box1 h1 {
+  color: greenyellow;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 0.2em;
+}
+
+.box3 {
+  border: 10px solid green;
+  padding: 30px;
+  margin: 40px 0;
+}
+.box4 {
+  border: 5px solid brown;
+  padding: 10px;
+  font-size: 25px;
+  color: red;
+  margin-top: 100px;
+  margin-right: auto;
+}
+
+.box4 p {
+  font-size: 25px;
+  color: red;
+  padding: 40px;
+  font-style: oblique;
+}
+
+.box4 h1 {
+  padding-left: 25px;
+  text-transform: uppercase;
+  word-spacing: 0.5em;
+  text-decoration: underline;
+}
+
+.categories h2 {
+  color: navy;
+  text-decoration: underline;
+  text-align: center;
+}
+.categories {
+  border: 5px solid green;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.categories ul {
+  padding-left: 10px;
+  list-style: square;
+  list-style: none;
+}
+.categories li {
+  padding: 10px;
+  border-bottom: dotted 1px black;
+  list-style-image: url("./assets/checkmark.png");
+}
+.my-form {
+  padding: 15;
+}
+.my-form .form-group {
+  padding-bottom: 20px;
+}
+.my-form label {
+  display: block;
+}
+.my-form
+  input[type="text"].my-form
+  input[type="email"].my-form
+  input[type="textarea"] {
+  padding: 8px;
+  width: 100%;
+}
+.button {
+  background-color: yellow;
+  color: red;
+  padding: 10px 15px;
+  border: none;
+}
