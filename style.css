@@ -5,6 +5,7 @@ body {
   font-weight: normal;
   line-height: 1em;
   margin: 0;
+  
 }
 a {
   text-decoration: none;
@@ -124,9 +125,77 @@ a:visited {
   padding: 8px;
   width: 100%;
 }
+.clr{
+  clear: both;
+}
 .button {
   background-color: yellow;
   color: red;
   padding: 10px 15px;
   border: none;
+}
+.button:hover{
+  background: red;
+  color: yellow;
+}
+.block{
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main-block{
+  float: left;
+  width: 70%;
+  padding:15px;
+  box-sizing: border-box;
+}
+#side-bar{
+  float: right;
+  width: 30%;
+  background-color: grey;
+  color: white;
+  padding:15px;
+  box-sizing: border-box;
+}
+.p-box{
+  width: 800px;
+  height: 500px;
+  border:1px solid black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url(/assets/Allcharacter.jpeg);
+  background-position: center top;
+  background-repeat: none;
+}
+.p-box h1{
+  position: absolute;
+  top:100px;
+  left: 200px;
+  color: orange;
+}
+.p-box h2{
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  color: aqua;
+}
+.fix-me{
+  position: fixed;
+  top: 400px;
+}
+.mylist li:first-child{
+  background-color: red;
+}
+
+.mylist li:last-child{
+  background-color: yellowgreen;
+}
+
+.mylist li:nth-child(5){
+  background-color: yellow;
+}
+.mylist li:nth-child(even){
+  background-color: green;
 }
